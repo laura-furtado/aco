@@ -15,6 +15,8 @@ public class AC3 {
 		h = teclado.nextDouble();
 		area = 2*Math.PI*raio*(raio+h);
 		volume = Math.PI*raio*raio*h;
+		//Impressão
+		System.out.println("-------------------------------------------");
 		System.out.println("A altura do cilindro é "+ h);
 		System.out.println("O raio do cilindro é: "+ raio);
 		System.out.println("A área do cilindro é: "+ area);

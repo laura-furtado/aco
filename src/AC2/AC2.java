@@ -18,6 +18,7 @@ public class AC2 {
 		c = teclado.nextInt();
 		
 		//Impressão
+		System.out.println("-------------------------------------");
 		System.out.println("A equação é " +a+"x^2" + b+"x"+ c);
 		d = (b*b) - (4*a*c);
 		System.out.println("O valor de delta é "+ d);
