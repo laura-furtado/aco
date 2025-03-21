@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Autor {
 	private String nome;
 	private String cpf;
-	private ArrayList<Livro> livro;
+	private ArrayList<Livro> livros;
 	
 	public Autor() {
 		
@@ -27,14 +27,15 @@ public class Autor {
 		this.cpf = cpf;
 	}
 
-	public ArrayList<Livro> getLivro() {
-		return livro;
+	public ArrayList<Livro> getLivros() {
+		return livros;
 	}
 
-	public void setLivro(ArrayList<Livro> livro) {
-		this.livro = livro;
+	public void setLivros(ArrayList<Livro> livros) {
+		this.livros = livros;
 	}
-	
+
+
 	
 	
 }
