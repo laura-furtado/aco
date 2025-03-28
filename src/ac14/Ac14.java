@@ -30,7 +30,7 @@ public class Ac14 {
 			resp = teclado.nextInt();
 			teclado.nextLine();
 		}while(resp==0);
-		System.out.print("Qual o numero de parcelas: ");
+		System.out.print("Qual o número de parcelas: ");
 		parc = teclado.nextInt();
 		for(Produto p : listaProdutos) {
 		soma += p.getPreco();
