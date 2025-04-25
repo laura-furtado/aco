@@ -12,4 +12,5 @@ public class Aluno {
 		this.registro = registro;
 		this.curso = curso;
 	}
+	
 }

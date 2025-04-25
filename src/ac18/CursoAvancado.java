@@ -20,10 +20,10 @@ public class CursoAvancado extends Cursos{
 	
 	public String faltasA(int faltas) {
 		if (faltas<=0.10*40) {
-			return "faltas permitidas";
+			return "faltas permitidas!";
 		}
 		else {
-			return "número de faltas excede o permitido";
+			return "número de faltas excede o permitido!";
 		}
 	}
 }

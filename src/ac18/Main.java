@@ -10,7 +10,7 @@ public class Main {
 		 String nomeAluno = teclado.nextLine();
 		 System.out.println("Qual o número de registro do aluno: ");
 		 String registroAluno = teclado.nextLine();
-		 System.out.println("De qual curso o aluno participa: ");
+		 System.out.println("De qual curso o aluno participa: 'Curso Padrão' ou 'Curso Avançado' ");
 		 String nomeDoCurso = teclado.nextLine();
 		 if (nomeDoCurso.equals("Curso Padrão")){
 			 System.out.println("Digite a nota da 1° avaliação: ");
@@ -26,10 +26,10 @@ public class Main {
 			 double mediaPF = cp1.mediaP(avaliacao1P, avaliacao2P, avaliacao3P);
 			Aluno a1 = new Aluno (nomeAluno, registroAluno,cp1);
 			 if(mediaPF>= 7 && faltasPF.equals("faltas permitidas")) {
-				 System.out.println(nomeAluno +" aprovado com "+ mediaPF + " e "+ faltasPF+ "faltas!");
+				 System.out.println(nomeAluno + " de registro: "+ registroAluno +" aprovado com média "+ mediaPF + " e "+ faltasPF);
 			 }
 			 else {
-				 System.out.println(nomeAluno +" reprovado com "+ mediaPF + " e "+ faltasPF+ "faltas!");
+				 System.out.println(nomeAluno + " de registro: "+ registroAluno +" reprovado com média "+ mediaPF + " e "+ faltasPF);
 			 }
 		 }
 		 else {
@@ -46,10 +46,10 @@ public class Main {
 			 double mediaAF =ca1.mediaA(avaliacao1A, avaliacao2A, avaliacao3A);
 			 Aluno a1 = new Aluno (nomeAluno, registroAluno,ca1);
 			 if(mediaAF>= 7 && faltasAF.equals("faltas permitidas")) {
-				 System.out.println(nomeAluno +" aprovado com "+ mediaAF + " e "+ faltasAF+ "faltas!");
+				 System.out.println(nomeAluno + " de registro: "+ registroAluno +" aprovado com média "+ mediaAF + " e "+ faltasAF);
 			 }
 			 else {
-				 System.out.println(nomeAluno +" reprovado com "+ mediaAF + " e "+ faltasAF+ "faltas!");
+				 System.out.println(nomeAluno + " de registro: "+ registroAluno +" reprovado com média "+ mediaAF + " e "+ faltasAF);
 			 }
 		 }
 	
